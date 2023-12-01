@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AlexShop - eCommerce Website</title>
 
-    <!-- favicon -->
+<!-- favicon -->
     <link rel="shortcut icon" href="/assets/images/logo/favicon.ico" type="image/x-icon">
 
-    <!-- custom css link -->
+<!-- custom css link -->
     <link rel="stylesheet" href="assets/css/style.css">
 
-    <!-- google font link -->
+<!-- google font link -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
@@ -21,9 +21,9 @@
 
     <div class="overlay" data-overlay></div>
 
-    <!-- MODAL -->
-    <div class="modal">
-        <div class="modal-close-overlay"></div>
+<!-- MODAL -->
+    <div class="modal closed" data-modal>
+        <div class="modal-close-overlay" data-modal-overlay></div>
         <div class="modal-content">
             <button class="modal-close-btn" data-modal-close>
                 <ion-icon name="close-outline"></ion-icon>
@@ -51,6 +51,31 @@
     </div>
 
 
+<!-- NOTIFICATION TOAST -->
+    <div class="notification-toast closed" data-toast>
+
+        <button class="toast-close-btn" data-toast-close>
+            <ion-icon name="close-outline"></ion-icon>
+        </button>
+
+        <div class="toast-banner">
+            <img src="assets/images/products/jewellery-1.jpg" alt="Rose Gold Earnings" width="80" height="70">
+        </div>
+
+        <div class="toast-detail">
+            <p class="toast-message">
+                Someone in new just bought
+            </p>
+
+            <p class="toast-title">
+                Rose Gold Earnings
+            </p>
+
+            <p class="toast-meta">
+                <time datetime="PT2M">2 minutes</time> ago
+            </p>
+        </div>
+    </div>
 
 
 
@@ -60,10 +85,10 @@
     
 
 
-    <!-- custom js link -->
+<!-- custom js link -->
     <script src="assets/js/script.js"></script>
 
-    <!-- ionicon link -->
+<!-- ionicon link -->
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     
